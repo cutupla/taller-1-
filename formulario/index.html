@@ -1,0 +1,47 @@
+/*
+Por 
+Daniel Ocampo Quiroga
+Yoiver Mosquera Hurtado
+*/
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formulario registro</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="form-register">
+		<h4>Formulario Registro</h4>
+		<input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su Nombre">
+		<input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+		<input class="controls" type="text" name="direccion" id="apellido" placeholder="Ingrese su Dirección">
+		<input class="controls" type="number" name="number" id="apellido" placeholder="Ingrese su Teléfono">
+		<input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+		<input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
+		<div class="checkbox">
+			<p class="p1">Esta becado</p>
+			<input type="checkbox" name="check" id="checkbox1">
+			<label for="checkbox1">SI</label>
+			<input type="checkbox" name="check" id="checkbox2">
+			<label for="checkbox2">NO</label><br>
+			<label class="fecha" for="date">Ingrese su fecha de nacimiento</label>
+            <input type="date" id="date" name="user_date"><br>
+            <label>Elija su color favorito</label><br>
+            <input type="color"><br>
+            <label>Selecione su sexo</label><br>
+            <input type="radio" name="genero" value="Masculino"> Masculino<br>
+            <input type="radio" name="genero" value="Femenino"> Femenino<br>
+            <label for="universidad">Selecione el area de su Universidad</label><br>
+            <select name="Area" id="Area">
+            <option>Derecho</option>
+			<option>Ingenieria</option>
+			<option>Medicina</option>
+			</select>
+        </div>
+		<input class="botons" type="submit" value="registrar">
+		<p><a href="#">¿Ya tengo Cuenta?</p>	
+	</section>
+</body>
+</html>
